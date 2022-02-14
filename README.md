@@ -5,18 +5,19 @@ The following commands are provided by this plugin:
 
 Command|Description
 -------|-----------
-CsFindSymbol|Find symbol
-CsFindDef|Find definition
-CsFindCalled|Find functions called by  a function
-CsFindCalling|Find function calling a function
-CsFindText|Find a text
-CsFindPattern|Find a pattern.
-CsFindFile|Find a file
-CsFindIncluding|Find file #including the specified file
-CsPop|Pop the cscope query results stack
-CsShow|Show the cscope query results stack
+:CsFindSymbol|Find a symbol
+:CsFindDef|Find a definition
+:CsFindCalled|Find functions called by  a function
+:CsFindCalling|Find function calling a function
+:CsFindText|Find a text
+:CsFindPattern|Find a pattern.
+:CsFindFile|Find a file
+:CsFindIncluding|Find file #including the specified file
+:CsPop|Pop the cscope query results stack
+:CsShow|Show the cscope query results stack
 
-The following configuration variables are supported:
+
+The following configuration variables are supported. You can set these variables in your `.vimrc` file.
 
 Variable|Description
 --------|-----------
