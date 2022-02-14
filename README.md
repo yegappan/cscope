@@ -1,5 +1,30 @@
+# Cscope Vim Plugin
 
-Plugin to integrate [Cscope](http://cscope.sourceforge.net/) with Vim.
+The cscope plugin integrates the [Cscope](http://cscope.sourceforge.net/) tool to browse source files with Vim.
+
+This plugin works with both Vim and Neovim and will work on all the platforms where Vim/Neovim are supported.  This plugin will work in both console and GUI Vim.
+You will need the cscope tool to use this plugin.
+
+## Installation
+
+You can install this plugin directly from github using the following steps:
+
+```
+    $ mkdir -p $HOME/.vim/pack/downloads/opt/cscope
+    $ cd $HOME/.vim/pack/downloads/opt/cscope
+    $ git clone https://github.com/yegappan/cscope
+```
+
+After installing the plugin using the above steps, add the following line to
+your $HOME/.vimrc file:
+
+```
+    packadd cscope
+```
+
+You can also install and manage this plugin using any one of the Vim plugin managers (dein.vim, pathogen, vam, vim-plug, volt, Vundle, etc.).
+
+## Supported Commands
 
 The following commands are provided by this plugin:
 
@@ -16,6 +41,7 @@ Command|Description
 :CsPop|Pop the cscope query results stack
 :CsShow|Show the cscope query results stack
 
+## Configuration
 
 The following configuration variables are supported. You can set these variables in your `.vimrc` file.
 
